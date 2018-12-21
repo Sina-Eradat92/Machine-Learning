@@ -16,7 +16,6 @@ home.dest: Home/Destination
 '''
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from matplotlib import style
 from sklearn.cluster import KMeans
 from sklearn import preprocessing
@@ -64,8 +63,3 @@ for i in range(len(X)):
 		
 print('Accuracy:', (correct/len(X)))
 	
-
-
-
-#Graph:
-style.use('ggplot')
